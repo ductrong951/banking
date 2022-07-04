@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "node-sass": "^7.0.1"
+  },
+  "name": "affiliate-website",
+  "version": "1.0.0",
+  "description": "Affiliate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json",
+    "scss": "node-sass --watch style.scss -o src/css"
+  },
+  "author": "",
+  "license": "ISC"
+}
